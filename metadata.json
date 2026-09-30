@@ -1,0 +1,8 @@
+{
+  "name": "EVOX — Adaptive AI Intelligence Platform",
+  "description": "An intelligent machine-learning laboratory that transforms raw data into optimized, explainable and actionable intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

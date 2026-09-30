@@ -1,0 +1,20 @@
+{
+  "id": "model_ds_1_1000_2",
+  "model_id": "model_ds_1_1000_2",
+  "name": "Random Forest",
+  "model_name": "Random Forest",
+  "problemType": "classification",
+  "problem_type": "classification",
+  "datasetId": "ds_1_1000",
+  "dataset_id": "ds_1_1000",
+  "metrics": {
+    "trainingTimeMs": 201.1,
+    "inferenceLatencyMs": 0.0549,
+    "modelComplexityScore": 6,
+    "parameterCount": 15378,
+    "modelComplexity": {
+      "type": "tree_ensemble",
+      "numberOfTrees": 100,
+      "maximumDepth": 10,
+      "numberOfFeatures": 14,
+      "numberOfLeaves": 

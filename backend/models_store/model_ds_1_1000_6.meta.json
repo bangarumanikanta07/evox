@@ -1,0 +1,153 @@
+{
+  "id": "model_ds_1_1000_6",
+  "model_id": "model_ds_1_1000_6",
+  "name": "Support Vector Classifier",
+  "model_name": "Support Vector Classifier",
+  "problemType": "classification",
+  "problem_type": "classification",
+  "datasetId": "ds_1_1000",
+  "dataset_id": "ds_1_1000",
+  "metrics": {
+    "trainingTimeMs": 41.9,
+    "inferenceLatencyMs": 0.0079,
+    "modelComplexityScore": 4,
+    "parameterCount": 15,
+    "modelComplexity": {
+      "type": "linear_model",
+      "numberOfFeatures": 14,
+      "numberOfCoefficients": 15,
+      "modelSizeBytes": 22131
+    },
+    "accuracy": 0.925,
+    "precision": 0.9207,
+    "recall": 0.925,
+    "f1": 0.9217,
+    "rocAuc": 0.9514,
+    "confusionMatrix": {
+      "labels": [
+        "0",
+        "1"
+      ],
+      "matrix": [
+        [
+          168,
+          5
+        ],
+        [
+          10,
+          17
+        ]
+      ]
+    }
+  },
+  "featureNames": [
+    "customer_age",
+    "annual_income",
+    "credit_score",
+    "account_age_months",
+    "transaction_frequency",
+    "transaction_amount",
+    "region_Asia-Pacific",
+    "region_Europe",
+    "region_Latin America",
+    "region_North America",
+    "account_tier_Gold",
+    "account_tier_Platinum",
+    "account_tier_Silver",
+    "account_tier_Standard"
+  ],
+  "feature_names": [
+    "customer_age",
+    "annual_income",
+    "credit_score",
+    "account_age_months",
+    "transaction_frequency",
+    "transaction_amount",
+    "region_Asia-Pacific",
+    "region_Europe",
+    "region_Latin America",
+    "region_North America",
+    "account_tier_Gold",
+    "account_tier_Platinum",
+    "account_tier_Silver",
+    "account_tier_Standard"
+  ],
+  "hyperparameters": {
+    "C": 1.0,
+    "break_ties": false,
+    "cache_size": 200,
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": "scale",
+    "kernel": "linear",
+    "max_iter": -1,
+    "probability": true,
+    "shrinking": true,
+    "tol": 0.001
+  },
+  "modelPath": "/app/applet/backend/models_store/model_ds_1_1000_6.joblib",
+  "model_path": "/app/applet/backend/models_store/model_ds_1_1000_6.joblib",
+  "isParetoOptimal": false,
+  "featureImportances": [
+    {
+      "feature": "annual_income",
+      "importance": 0.2167
+    },
+    {
+      "feature": "credit_score",
+      "importance": 0.1406
+    },
+    {
+      "feature": "account_age_months",
+      "importance": 0.1126
+    },
+    {
+      "feature": "transaction_amount",
+      "importance": 0.1082
+    },
+    {
+      "feature": "transaction_frequency",
+      "importance": 0.1008
+    },
+    {
+      "feature": "customer_age",
+      "importance": 0.0856
+    },
+    {
+      "feature": "account_tier_Platinum",
+      "importance": 0.0692
+    },
+    {
+      "feature": "account_tier_Gold",
+      "importance": 0.0355
+    },
+    {
+      "feature": "region_Asia-Pacific",
+      "importance": 0.0288
+    },
+    {
+      "feature": "region_Latin America",
+      "importance": 0.0243
+    },
+    {
+      "feature": "region_North America",
+      "importance": 0.0241
+    },
+    {
+      "feature": "account_tier_Standard",
+      "importance": 0.0208
+    },
+    {
+      "feature": "region_Europe",
+      "importance": 0.0197
+    },
+    {
+      "feature": "account_tier_Silver",
+      "importance": 0.0129
+    }
+  ],
+  "createdAt": "2026-09-30T10:05:55Z",
+  "created_at": "2026-09-30T10:05:55Z",
+  "status": "trained"
+}

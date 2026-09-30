@@ -1,0 +1,24 @@
+services:
+  # Backend API on Render
+  - type: web
+    name: evox-backend
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    rootDir: backend
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+
+  # Frontend Static or Node Web Service on Render / Vercel
+  - type: web
+    name: evox-frontend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: evox-backend
+          property: host

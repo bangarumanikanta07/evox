@@ -1,0 +1,20 @@
+{
+  "id": "model_ds_1_1000_3",
+  "model_id": "model_ds_1_1000_3",
+  "name": "Extra Trees",
+  "model_name": "Extra Trees",
+  "problemType": "classification",
+  "problem_type": "classification",
+  "datasetId": "ds_1_1000",
+  "dataset_id": "ds_1_1000",
+  "metrics": {
+    "trainingTimeMs": 150.1,
+    "inferenceLatencyMs": 0.0603,
+    "modelComplexityScore": 5,
+    "parameterCount": 25116,
+    "modelComplexity": {
+      "type": "tree_ensemble",
+      "numberOfTrees": 100,
+      "maximumDepth": 10,
+      "numberOfFeatures": 14,
+      "numberOfLeaves": 

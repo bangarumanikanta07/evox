@@ -1,0 +1,20 @@
+{
+  "id": "model_ds_1_1000_4",
+  "model_id": "model_ds_1_1000_4",
+  "name": "Gradient Boosting",
+  "model_name": "Gradient Boosting",
+  "problemType": "classification",
+  "problem_type": "classification",
+  "datasetId": "ds_1_1000",
+  "dataset_id": "ds_1_1000",
+  "metrics": {
+    "trainingTimeMs": 239.0,
+    "inferenceLatencyMs": 0.006,
+    "modelComplexityScore": 7,
+    "parameterCount": 1496,
+    "modelComplexity": {
+      "type": "tree_ensemble",
+      "numberOfTrees": 100,
+      "maximumDepth": 3,
+      "numberOfFeatures": 14,
+      "numberOfLeaves": 
